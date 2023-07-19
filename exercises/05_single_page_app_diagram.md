@@ -17,7 +17,7 @@ sequenceDiagram
     activate server
     server-->>browser: Javascript file: "spa"
     deactivate server
-    Note right of browser: browser executes spa.json and sends another GET request for data.json
+    Note right of browser: browser executes spa.js and sends another GET request for data.json
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
