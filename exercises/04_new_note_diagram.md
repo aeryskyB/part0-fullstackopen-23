@@ -5,7 +5,7 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note, content: "hi"
     activate server
-    Note right of server: a new note object is created (on server) and "pushed back" to "data.json"
+    Note right of server: a new note object is created and "pushed back" to "data.json"
     Note right of server: this "updated" data.json is not saved in server database
     server-->>browser: "302 Found": URL redirect, location: "/notes"
     deactivate server
