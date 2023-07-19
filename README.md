@@ -1,12 +1,12 @@
-# testing
+# mermaid for Sequential Diagrams
 
 ```mermaid
 sequenceDiagram
     participant me
-    participant github
+    participant git
   
-    me->>github: git clone, git pull (existing)
-    activate github
-    github->>me: copies data
-    deactivate github
+    me->>git: git clone, git pull (existing)
+    activate git
+    git->>me: copies data
+    deactivate git
 ```
