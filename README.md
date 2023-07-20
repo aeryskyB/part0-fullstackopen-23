@@ -3,10 +3,10 @@
 ```mermaid
 sequenceDiagram
     participant me
-    participant git
+    participant github
   
-    me->>git: git clone, git pull (existing)
-    activate git
-    git->>me: copies data
-    deactivate git
+    me->>github: git clone, git pull (existing)
+    activate github
+    github->>me: copies data
+    deactivate github
 ```
